@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "LP3DResponsibleView.h"
+#import "LP3DResponsiveView.h"
 
 @interface ViewController ()
 
@@ -18,8 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     for (UIView *view in self.view.subviews) {
-        if ([view isKindOfClass:LP3DResponsibleView.class]) {
-            ((LP3DResponsibleView *)view).maxRotationAngle = M_PI/6;
+        if ([view isKindOfClass:LP3DResponsiveView.class]) {
+            ((LP3DResponsiveView *)view).maxRotationAngle = M_PI/6;
         }
     }
 }

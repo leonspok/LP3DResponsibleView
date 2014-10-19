@@ -24,7 +24,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface LP3DResponsibleView : UIControl
+@interface LP3DResponsiveView : UIControl
 
 @property (nonatomic) NSTimeInterval maxAnimationDuration;
 @property (nonatomic) CGFloat maxRotationAngle;

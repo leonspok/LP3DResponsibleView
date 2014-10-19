@@ -22,14 +22,14 @@
  THE SOFTWARE.
  */
 
-#import "LP3DResponsibleView.h"
+#import "LP3DResponsiveView.h"
 
 #define MAX_ANIMATION_DURATION 0.1
 #define MAX_ROTATION_ANGLE M_PI/12
 #define MAX_ROTATION_RATIO 1.5
 #define ANIMATION_NAME @"LP3DResponsibleViewAnimation"
 
-@implementation LP3DResponsibleView {
+@implementation LP3DResponsiveView {
     BOOL touchPerforming;
 }
 

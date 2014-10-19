@@ -1,9 +1,9 @@
-LP3DResponsibleView
+LP3DResponsiveView
 ====================================
 
 ![](DEMO.gif)
 
-Responsible for touches UIControl. Rotates view's layer in 3D depending on touch location.
+Responsive for touches UIControl. Rotates view's layer in 3D depending on touch location.
 
 Available customizations:
 
@@ -12,4 +12,4 @@ Available customizations:
 
 ## Using
 
-Copy **LP3DResponsibleView.h** and **LP3DResponsibleView.m** into your project and use it like other controls. 
+Copy **LP3DResponsiveView.h** and **LP3DResponsiveView.m** into your project and use it like other controls. 

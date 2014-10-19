@@ -14,7 +14,7 @@
 		E38CA31319F3DA6800F80BE9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E38CA31219F3DA6800F80BE9 /* Images.xcassets */; };
 		E38CA31619F3DA6800F80BE9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E38CA31419F3DA6800F80BE9 /* LaunchScreen.xib */; };
 		E38CA32219F3DA6800F80BE9 /* LP3DResponsibleViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E38CA32119F3DA6800F80BE9 /* LP3DResponsibleViewTests.m */; };
-		E38CA32D19F3DE4500F80BE9 /* LP3DResponsibleView.m in Sources */ = {isa = PBXBuildFile; fileRef = E38CA32C19F3DE4500F80BE9 /* LP3DResponsibleView.m */; };
+		E38CA32D19F3DE4500F80BE9 /* LP3DResponsiveView.m in Sources */ = {isa = PBXBuildFile; fileRef = E38CA32C19F3DE4500F80BE9 /* LP3DResponsiveView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +41,8 @@
 		E38CA31B19F3DA6800F80BE9 /* LP3DResponsibleViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LP3DResponsibleViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E38CA32019F3DA6800F80BE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E38CA32119F3DA6800F80BE9 /* LP3DResponsibleViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LP3DResponsibleViewTests.m; sourceTree = "<group>"; };
-		E38CA32B19F3DE4500F80BE9 /* LP3DResponsibleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LP3DResponsibleView.h; sourceTree = "<group>"; };
-		E38CA32C19F3DE4500F80BE9 /* LP3DResponsibleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LP3DResponsibleView.m; sourceTree = "<group>"; };
+		E38CA32B19F3DE4500F80BE9 /* LP3DResponsiveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LP3DResponsiveView.h; sourceTree = "<group>"; };
+		E38CA32C19F3DE4500F80BE9 /* LP3DResponsiveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LP3DResponsiveView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,8 +84,8 @@
 		E38CA30419F3DA6800F80BE9 /* LP3DResponsibleView */ = {
 			isa = PBXGroup;
 			children = (
-				E38CA32B19F3DE4500F80BE9 /* LP3DResponsibleView.h */,
-				E38CA32C19F3DE4500F80BE9 /* LP3DResponsibleView.m */,
+				E38CA32B19F3DE4500F80BE9 /* LP3DResponsiveView.h */,
+				E38CA32C19F3DE4500F80BE9 /* LP3DResponsiveView.m */,
 				E38CA30919F3DA6800F80BE9 /* AppDelegate.h */,
 				E38CA30A19F3DA6800F80BE9 /* AppDelegate.m */,
 				E38CA30C19F3DA6800F80BE9 /* ViewController.h */,
@@ -224,7 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E38CA32D19F3DE4500F80BE9 /* LP3DResponsibleView.m in Sources */,
+				E38CA32D19F3DE4500F80BE9 /* LP3DResponsiveView.m in Sources */,
 				E38CA30E19F3DA6800F80BE9 /* ViewController.m in Sources */,
 				E38CA30B19F3DA6800F80BE9 /* AppDelegate.m in Sources */,
 				E38CA30819F3DA6800F80BE9 /* main.m in Sources */,
