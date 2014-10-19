@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "LP3DResponsibleView.h"
 
 @interface ViewController ()
 
@@ -16,12 +17,20 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    for (UIView *view in self.view.subviews) {
+        if ([view isKindOfClass:LP3DResponsibleView.class]) {
+            ((LP3DResponsibleView *)view).maxRotationAngle = M_PI/6;
+        }
+    }
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)action:(id)sender {
+    [[[UIAlertView alloc] initWithTitle:@"Action" message:[NSString stringWithFormat:@"Tapped on %d", [self.view.subviews indexOfObjectIdenticalTo:sender]+1] delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil] show];
 }
 
 @end
